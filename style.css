@@ -1,0 +1,91 @@
+/*Mulish Bold 700*/
+@import url('https://fonts.googleapis.com/css2?family=Mulish:wght@700&display=swap');
+/* Mulish Light 300*/
+@import url('https://fonts.googleapis.com/css2?family=Mulish:wght@300;700&display=swap');
+/*Mulish Light 200*/
+@import url('https://fonts.googleapis.com/css2?family=Mulish:wght@200;300;700&display=swap');
+
+
+/*** ESTILOS BOTÓN SLIDE LEFT ***/
+ #navbar-inicio{
+    Position:sticky;
+    Top:0px;
+}; 
+
+
+.h1-scroll-1{
+    font-family: 'Mulish', sans-serif;
+    font-weight: 700;
+}
+#buttons-scroll-1 {
+    background: #ffffff; /* color de fondo */
+    color: #ffffff; /* color de fuente */
+    border: 1px solid #ffffff; /* tamaño y color de borde */
+    padding: 5px 8px;
+    border-radius: 7px; /* redondear bordes */
+    position: relative;
+    z-index: 1;
+    overflow: hidden;
+    display: inline-block;
+    }
+   
+    #buttons-scroll-1::after {
+    content: "";
+    background: #4741d7; /* color de fondo hover */
+    position: absolute;
+    z-index: -1;
+    padding: 10px 10px;
+    display: block;
+    top: 0;
+    bottom: 0;
+    left: -100%;
+    right: 100%;
+    -webkit-transition: all 0.5s;
+    transition: all 0.5s;
+    }
+    #buttons-scroll-1:hover::after {
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    -webkit-transition: all 0.5s;
+    transition: all 0.5s;
+    }
+
+    .texto-buttons-scroll-1{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    text-decoration: none;
+    color: black;
+        };
+    .texto-buttons-scroll-1::after{
+        
+    color: white !important;
+    text-decoration: none; /* Le saca la linea */
+        
+    }
+
+
+    /* SCROLL 2 */
+
+    .marcas-scroll-2{
+        display: flex;
+        justify-content: center;
+        justify-content: space-around;
+        
+    };
+
+
+    /* SCROLL 4 */
+
+    #h1-scroll-4{
+        color: #04146c
+
+    };
+    
+   
+
+
+
+  
+    
